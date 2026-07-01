@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dott. [Nome Cognome] | Fisiatra</title>
+    <meta
+      name="description"
+      content="Sito del Dott. [Nome Cognome], fisiatra. Visite fisiatriche, patologie trattate, trattamenti riabilitativi, contatti e prenotazioni."
+      data-i18n-content="meta.description"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Vai al contenuto</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav" aria-label="Navigazione principale" data-i18n-aria-label="nav.label">
+        <a class="brand" href="#home" aria-label="Dott. [Nome Cognome] home" data-i18n-aria-label="brand.aria">
+          <img src="assets/logo-placeholder.svg" alt="" width="46" height="46">
+          <span>
+            <strong data-i18n="brand.name">Dott. [Nome Cognome]</strong>
+            <small data-i18n="brand.role">Fisiatra</small>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" data-nav-toggle>
+          <span class="sr-only" data-i18n="nav.open">Apri menu</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-panel" id="nav-links" data-nav-links>
+          <div class="nav-links">
+            <a href="#home" data-i18n="nav.home">Home</a>
+            <a href="#chi-sono" data-i18n="nav.about">Chi sono</a>
+            <a href="#patologie" data-i18n="nav.conditions">Patologie trattate</a>
+            <a href="#trattamenti" data-i18n="nav.treatments">Trattamenti</a>
+            <a href="#contatti" data-i18n="nav.contacts">Contatti e dove sono</a>
+          </div>
+          <div class="nav-tools">
+            <div class="language-switch" aria-label="Seleziona lingua" data-i18n-aria-label="language.label">
+              <button type="button" class="is-active" data-lang-button="it" aria-pressed="true">IT</button>
+              <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
+            </div>
+            <a class="nav-cta" href="#prenota" data-i18n="nav.book">Prenota la tua visita</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home">
+        <div class="hero-copy reveal">
+          <h1 data-i18n="hero.title">Muoversi meglio, con una cura costruita sulla persona.</h1>
+          <p class="hero-text" data-i18n="hero.text">
+            Il fisiatra è il medico della riabilitazione: valuta dolore, movimento e autonomia, collega diagnosi e percorso terapeutico, e coordina le cure quando servono fisioterapia, infiltrazioni o controlli specialistici.
+          </p>
+
+          <div class="hero-actions" aria-label="Azioni principali" data-i18n-aria-label="hero.actions">
+            <a class="button primary" href="#prenota" data-i18n="hero.primary">Prenota la tua visita</a>
+            <a class="button secondary" href="#patologie" data-i18n="hero.secondary">Scopri le patologie</a>
+          </div>
+
+          <div class="hero-note" aria-label="Perche scegliere una visita fisiatrica" data-i18n-aria-label="hero.noteAria">
+            <p data-i18n="hero.note">
+              Sceglierlo significa avere una lettura medica del problema, un piano realistico e indicazioni chiare su cosa fare prima, durante e dopo la riabilitazione.
+            </p>
+          </div>
+        </div>
+
+        <figure class="hero-media reveal">
+          <img src="assets/physiatry-hero.png" alt="Studio di fisiatria con strumenti per valutazione muscoloscheletrica" data-i18n-alt="hero.imageAlt">
+          <figcaption data-i18n="hero.caption">Visite fisiatriche, valutazione funzionale e percorsi riabilitativi.</figcaption>
+        </figure>
+      </section>
+
+      <section class="intro-band" aria-label="Introduzione alla fisiatria" data-i18n-aria-label="intro.aria">
+        <div class="intro-inner reveal">
+          <p data-i18n="intro.text">
+            Una visita fisiatrica è utile quando il dolore limita gesti quotidiani, sport, lavoro o recupero dopo un intervento. L'obiettivo non è solo ridurre il sintomo, ma capire perché compare e come tornare a muoversi con sicurezza.
+          </p>
+        </div>
+      </section>
+
+      <section class="section about" id="chi-sono">
+        <div class="section-heading reveal">
+          <span class="section-index">01</span>
+          <h2 data-i18n="about.title">Chi sono</h2>
+        </div>
+
+        <div class="about-layout">
+          <div class="doctor-card reveal">
+            <div class="portrait-placeholder" aria-hidden="true">
+              <span data-i18n="about.photo">Foto</span>
+            </div>
+            <div>
+              <h3 data-i18n="about.name">Dott. [Nome Cognome]</h3>
+              <p data-i18n="about.bio">
+                Medico specialista in Medicina Fisica e Riabilitativa. Mi occupo di dolore muscoloscheletrico, recupero funzionale e percorsi riabilitativi personalizzati.
+              </p>
+            </div>
+          </div>
+
+          <div class="profile-columns reveal">
+            <article>
+              <h3 data-i18n="about.trainingTitle">Formazione</h3>
+              <ul>
+                <li data-i18n="about.training1">Laurea in Medicina e Chirurgia, [Università].</li>
+                <li data-i18n="about.training2">Specializzazione in Medicina Fisica e Riabilitativa, [Istituto].</li>
+                <li data-i18n="about.training3">Aggiornamento continuo su dolore, postura e recupero motorio.</li>
+              </ul>
+            </article>
+            <article>
+              <h3 data-i18n="about.experienceTitle">Esperienza</h3>
+              <ul>
+                <li data-i18n="about.experience1">Valutazione di esiti post-traumatici e post-operatori.</li>
+                <li data-i18n="about.experience2">Gestione di percorsi riabilitativi in età adulta e anziana.</li>
+                <li data-i18n="about.experience3">Collaborazione con fisioterapisti e altri specialisti.</li>
+              </ul>
+            </article>
+            <article>
+              <h3 data-i18n="about.skillsTitle">Skills</h3>
+              <ul>
+                <li data-i18n="about.skills1">Valutazione funzionale e impostazione del piano terapeutico.</li>
+                <li data-i18n="about.skills2">Inquadramento del dolore articolare, tendineo e vertebrale.</li>
+                <li data-i18n="about.skills3">Indicazioni per esercizio terapeutico, ausili e rientro alle attività.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section conditions" id="patologie">
+        <div class="section-heading reveal">
+          <span class="section-index">02</span>
+          <h2 data-i18n="conditions.title">Patologie trattate</h2>
+          <p data-i18n="conditions.text">
+            Alcuni problemi arrivano da un trauma, altri da carichi ripetuti, postura, artrosi o recuperi incompleti. La visita serve a distinguere cosa richiede terapia, esercizio, approfondimenti o semplicemente un piano più ordinato.
+          </p>
+        </div>
+
+        <div class="condition-list reveal">
+          <article>
+            <div class="condition-media">
+              <img src="assets/condition-spine.png" alt="Illustrazione medica della colonna vertebrale" loading="lazy" data-i18n-alt="conditions.spineAlt">
+            </div>
+            <span>Colonna</span>
+            <h3 data-i18n="conditions.spineTitle">Dolore cervicale, dorsale e lombare</h3>
+            <p data-i18n="conditions.spineText">Lombalgia, sciatalgia, cervicalgia, rigidità e dolore persistente dopo episodi acuti.</p>
+          </article>
+          <article>
+            <div class="condition-media">
+              <img src="assets/condition-joints.png" alt="Illustrazione medica di spalla, ginocchio, anca e mano" loading="lazy" data-i18n-alt="conditions.jointAlt">
+            </div>
+            <span>Arti</span>
+            <h3 data-i18n="conditions.jointTitle">Spalla, ginocchio, anca e mano</h3>
+            <p data-i18n="conditions.jointText">Tendinopatie, artrosi, borsiti, limitazioni articolari e recupero dopo interventi.</p>
+          </article>
+          <article>
+            <div class="condition-media">
+              <img src="assets/condition-trauma.png" alt="Illustrazione medica del recupero dopo trauma o chirurgia" loading="lazy" data-i18n-alt="conditions.traumaAlt">
+            </div>
+            <span>Trauma</span>
+            <h3 data-i18n="conditions.traumaTitle">Esiti di traumi e chirurgia</h3>
+            <p data-i18n="conditions.traumaText">Percorsi dopo fratture, distorsioni, protesi, immobilizzazioni o periodi di inattività.</p>
+          </article>
+          <article>
+            <div class="condition-media">
+              <img src="assets/condition-movement.png" alt="Illustrazione medica del movimento e dell'equilibrio" loading="lazy" data-i18n-alt="conditions.functionAlt">
+            </div>
+            <span>Funzione</span>
+            <h3 data-i18n="conditions.functionTitle">Difficoltà nel movimento</h3>
+            <p data-i18n="conditions.functionText">Perdita di forza, equilibrio, autonomia o sicurezza nei gesti quotidiani.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section treatments" id="trattamenti">
+        <div class="section-heading reveal">
+          <span class="section-index">03</span>
+          <h2 data-i18n="treatments.title">Trattamenti</h2>
+        </div>
+
+        <div class="treatment-rail reveal">
+          <article>
+            <div class="treatment-number">A</div>
+            <h3 data-i18n="treatments.visitTitle">Visita fisiatrica</h3>
+            <p data-i18n="treatments.visitText">Anamnesi, esame obiettivo, valutazione del movimento e indicazioni pratiche per il percorso successivo.</p>
+          </article>
+          <article>
+            <div class="treatment-number">B</div>
+            <h3 data-i18n="treatments.planTitle">Piano riabilitativo</h3>
+            <p data-i18n="treatments.planText">Obiettivi chiari, priorità terapeutiche e coordinamento con fisioterapista o altri professionisti.</p>
+          </article>
+          <article>
+            <div class="treatment-number">C</div>
+            <h3 data-i18n="treatments.infiltrationTitle">Terapie infiltrative</h3>
+            <p data-i18n="treatments.infiltrationText">Quando indicate, possono aiutare a controllare dolore e infiammazione in modo mirato.</p>
+          </article>
+          <article>
+            <div class="treatment-number">D</div>
+            <h3 data-i18n="treatments.followTitle">Controlli e follow-up</h3>
+            <p data-i18n="treatments.followText">Verifica dei progressi, adattamento del programma e indicazioni per mantenere i risultati.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contatti">
+        <div class="section-heading reveal">
+          <span class="section-index">04</span>
+          <h2 data-i18n="contact.title">Contatti e dove sono</h2>
+          <p data-i18n="contact.text">Per prenotare una visita in studio usa telefono o email. I segnaposto sono pronti per essere sostituiti con indirizzo, orari e canali ufficiali.</p>
+        </div>
+
+        <div class="contact-layout">
+          <div class="map-panel reveal" role="img" aria-label="Mappa placeholder dello studio" data-i18n-aria-label="contact.mapAria">
+            <span data-i18n="contact.map">Mappa / embed Google Maps</span>
+          </div>
+          <aside class="contact-details reveal">
+            <h3 data-i18n="contact.clinic">Studio medico [Nome Studio]</h3>
+            <address>
+              <span data-i18n="contact.address1">[Via e numero civico]</span><br>
+              <span data-i18n="contact.address2">[CAP] [Città]</span>
+            </address>
+            <dl>
+              <div>
+                <dt data-i18n="contact.phoneLabel">Telefono</dt>
+                <dd><a href="tel:+390000000000">+39 000 000 0000</a></dd>
+              </div>
+              <div>
+                <dt data-i18n="contact.emailLabel">Email</dt>
+                <dd><a href="mailto:studio@example.com">studio@example.com</a></dd>
+              </div>
+              <div>
+                <dt data-i18n="contact.hoursLabel">Orari</dt>
+                <dd data-i18n="contact.hours">Lun-Ven, su appuntamento</dd>
+              </div>
+            </dl>
+            <a class="button secondary contact-button" href="#prenota" data-i18n="contact.bookingLink">Modalità di prenotazione</a>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section booking" id="prenota">
+        <div class="booking-panel reveal">
+          <div>
+            <span class="section-index">05</span>
+            <h2 data-i18n="booking.title">Prenota la tua visita</h2>
+            <p data-i18n="booking.text">
+              Al momento la prenotazione passa dai contatti dello studio. Per una visita online, invece, puoi usare il profilo MioDottore del medico.
+            </p>
+          </div>
+
+          <div class="booking-options" aria-label="Opzioni di prenotazione" data-i18n-aria-label="booking.optionsAria">
+            <article>
+              <span data-i18n="booking.studioLabel">Visita in studio</span>
+              <h3 data-i18n="booking.studioTitle">Prenota tramite contatti</h3>
+              <p data-i18n="booking.studioText">Chiama lo studio o scrivi una email per concordare giorno, orario e documenti da portare.</p>
+              <div class="booking-links">
+                <a class="button primary" href="tel:+390000000000" data-i18n="booking.call">Chiama lo studio</a>
+                <a class="button secondary" href="mailto:studio@example.com" data-i18n="booking.email">Scrivi una email</a>
+              </div>
+            </article>
+
+            <article>
+              <span data-i18n="booking.onlineLabel">Visita online</span>
+              <h3 data-i18n="booking.onlineTitle">Vai al profilo MioDottore</h3>
+              <p data-i18n="booking.onlineText">Per le visite online usa la pagina MioDottore del medico. Il link è un placeholder da sostituire con il profilo reale.</p>
+              <a class="button secondary" href="https://www.miodottore.it/dott-nome-cognome/fisiatra/placeholder" target="_blank" rel="noopener" data-i18n="booking.miodottore">Apri MioDottore</a>
+            </article>
+          </div>
+
+          <!--
+            OPTIONAL BOOKING SYSTEM
+            The site currently directs patients to contact info for in-person appointments
+            and to the doctor's MioDottore profile for online visits.
+            Uncomment this form only if a direct booking workflow is later confirmed
+            and connected to an email, CRM, or booking backend.
+
+          <form class="booking-form" data-booking-form>
+            <label>
+              <span data-i18n="booking.nameLabel">Nome e cognome</span>
+              <input type="text" name="name" autocomplete="name" required>
+            </label>
+            <label>
+              <span data-i18n="booking.phoneLabel">Telefono</span>
+              <input type="tel" name="phone" autocomplete="tel" required>
+            </label>
+            <label>
+              <span data-i18n="booking.reasonLabel">Motivo della visita</span>
+              <select name="reason" required>
+                <option value="" data-i18n="booking.reasonPlaceholder">Seleziona</option>
+                <option data-i18n="booking.reasonPain">Dolore muscoloscheletrico</option>
+                <option data-i18n="booking.reasonRehab">Percorso riabilitativo</option>
+                <option data-i18n="booking.reasonFollow">Controllo / follow-up</option>
+              </select>
+            </label>
+            <label>
+              <span data-i18n="booking.messageLabel">Note utili</span>
+              <textarea name="message" rows="4"></textarea>
+            </label>
+            <button class="button primary" type="submit" data-i18n="booking.submit">Invia richiesta</button>
+            <p class="form-status" role="status" data-form-status data-i18n="booking.status">La richiesta non invia dati reali finché non viene collegato un servizio di prenotazione.</p>
+          </form>
+          -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong data-i18n="footer.name">Dott. [Nome Cognome]</strong>
+        <p data-i18n="footer.role">Medicina Fisica e Riabilitativa</p>
+      </div>
+      <nav aria-label="Link footer" data-i18n-aria-label="footer.aria">
+        <a href="#home" data-i18n="nav.home">Home</a>
+        <a href="#contatti" data-i18n="nav.contacts">Contatti e dove sono</a>
+        <a href="privacy.html" data-i18n="footer.privacy">Privacy</a>
+      </nav>
+      <p class="copyright">&copy; <span data-year></span> <span data-i18n="footer.rights">Dott. [Nome Cognome]. Tutti i diritti riservati.</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

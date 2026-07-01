@@ -1,0 +1,10 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Logo placeholder</title>
+  <desc id="desc">Placeholder mark for a physiatrist practice.</desc>
+  <rect x="8" y="8" width="112" height="112" rx="22" fill="#F3F7F6"/>
+  <rect x="8.5" y="8.5" width="111" height="111" rx="21.5" stroke="#D8E2DF"/>
+  <path d="M36 76C45 55 55 43 67 39C75 36 85 37 94 42" stroke="#0F6F68" stroke-width="8" stroke-linecap="round"/>
+  <path d="M34 90C44 81 55 77 68 79C78 81 87 86 96 96" stroke="#557F95" stroke-width="8" stroke-linecap="round"/>
+  <path d="M64 29V99" stroke="#172225" stroke-width="7" stroke-linecap="round"/>
+  <path d="M48 52H80" stroke="#B86F4C" stroke-width="7" stroke-linecap="round"/>
+</svg>

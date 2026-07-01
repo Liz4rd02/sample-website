@@ -1,0 +1,12 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Doctor portrait placeholder</title>
+  <desc id="desc">A professional portrait placeholder for a doctor.</desc>
+  <rect width="900" height="1100" fill="#EEF5F3"/>
+  <circle cx="450" cy="310" r="142" fill="#C7DAD7"/>
+  <path d="M259 912C273 688 339 524 450 524C561 524 627 688 641 912H259Z" fill="#FFFFFF"/>
+  <path d="M330 620L450 820L570 620C542 556 504 524 450 524C396 524 358 556 330 620Z" fill="#147D78"/>
+  <path d="M372 616L450 746L528 616" stroke="#0E5653" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M300 922H600" stroke="#D86B55" stroke-width="18" stroke-linecap="round"/>
+  <path d="M300 974H600" stroke="#C49A47" stroke-width="18" stroke-linecap="round"/>
+  <text x="450" y="1015" text-anchor="middle" fill="#5E6977" font-family="Arial, sans-serif" font-size="34" font-weight="700">DOCTOR PHOTO</text>
+</svg>
